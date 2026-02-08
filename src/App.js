@@ -1,10 +1,6 @@
 function App() {
-  console.log("Returning APP component");
-  return (
-    <div>
-      BLOG APP
-    </div>
-  )
+  console.log("Creating APP component");
+  return <div>BLOG APP</div>;
 }
 
-export default App
+export default App;
